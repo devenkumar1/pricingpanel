@@ -1,0 +1,78 @@
+
+body {
+    background-color: #e0eaff;
+    font-family: 'Arial', sans-serif;
+}
+
+.pricing-section {
+    background-color: #6ba3ff;
+    padding: 50px 0;
+}
+
+.pricing-card {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.pricing-card:hover {
+    transform: translateY(-10px);
+}
+
+.pricing-header {
+    background-color: #6ba3ff;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.pricing-header img {
+    width: 50px;
+    height: 50px;
+}
+
+.pricing-body {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.pricing-body h5 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #4a4a4a;
+}
+
+.pricing-body p {
+    font-size: 0.9rem;
+    color: #4a4a4a;
+    margin: 10px 0;
+}
+
+.pricing-body h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #1a53ff;
+    margin-top: 20px;
+}
+
+.pricing-footer {
+    padding: 20px;
+    text-align: center;
+}
+
+.pricing-footer button {
+    border-radius: 25px;
+    padding: 10px 30px;
+    background-color: #6ba3ff;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.pricing-footer button:hover {
+    background-color: #4a89ff;
+}
